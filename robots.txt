@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhangshi840428-source.github.io/shizhang-studio-portfolio/sitemap.xml
