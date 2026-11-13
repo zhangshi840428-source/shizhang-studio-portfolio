@@ -158,3 +158,10 @@ dialog.lb::backdrop{background:rgba(4,10,20,.92)}
 .subhead{margin:44px 0 4px;font-size:24px}
 .subnote{color:var(--muted);margin:0 0 18px}
 
+
+/* editable chart demo directly under the hero */
+.edit-demo{background:var(--navy);padding:0 0 64px;color:#fff}
+.edit-demo .wrap{position:relative;z-index:1}
+.edit-demo-video,.edit-demo img{width:100%;height:auto;display:block;border-radius:var(--radius);background:var(--white);box-shadow:0 12px 40px rgba(0,0,0,.28)}
+.edit-demo-caption{margin:14px 0 0;text-align:center;color:#cfd9e6;font-size:16px}
+@media (prefers-reduced-motion:reduce){.edit-demo-video{display:none}.edit-demo img{display:block}}
