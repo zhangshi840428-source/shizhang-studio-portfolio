@@ -149,8 +149,12 @@ dialog.lb::backdrop{background:rgba(4,10,20,.92)}
 .lb button:hover{background:rgba(255,255,255,.22)}
 @media (max-width:640px){.strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;padding:14px 20px 22px;-webkit-overflow-scrolling:touch}.strip a{flex:0 0 72%;scroll-snap-align:start}.sample-head{padding:22px 20px 4px}.lb figcaption{flex-direction:column;align-items:flex-start}}
 @media (max-width:640px){table{min-width:0}thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}tbody tr{display:grid;grid-template-columns:auto 1fr;align-items:baseline;border-bottom:1px solid var(--line);padding:14px 18px}tbody th{grid-column:1/-1;padding:0 0 6px;border:0}tbody td{border:0;padding:0 8px 0 0}td.price{font-size:22px}tbody tr:last-child{border-bottom:0}}
+.poster-strip{grid-template-columns:minmax(200px,280px)}
+.poster-strip img{aspect-ratio:auto;height:auto}
+@media (max-width:640px){.poster-strip a{flex:0 0 60%}}
 .contact .eyebrow{color:var(--gold)}
 .nav .mnav{display:none}
 @media (max-width:900px){.nav .mnav{display:flex;gap:18px;list-style:none;margin:0;padding:0 20px 10px;overflow-x:auto;white-space:nowrap}.mnav a{color:#d6deea;text-decoration:none;font-size:14.5px;display:inline-block;padding:4px 0}.mnav a:hover{color:#fff}html{scroll-padding-top:100px}}
 .subhead{margin:44px 0 4px;font-size:24px}
 .subnote{color:var(--muted);margin:0 0 18px}
+
